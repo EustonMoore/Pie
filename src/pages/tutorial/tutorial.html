@@ -1,0 +1,31 @@
+<!--
+  Generated template for the TutorialPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content >
+  <ion-slides  pager="true">
+
+    <ion-slide *ngFor="let slide of slides" [ngStyle]="{'background-color': slide.color} "> 
+         
+          <div class="intro-box">
+              <img [src]="slide.image" class="pop-in slide-image"/>
+              <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+              <p [innerHTML]="slide.description"></p>
+                 <div>
+
+    </div>
+          </div>
+    </ion-slide>
+
+    
+</ion-slides>
+</ion-content>
+
+<ion-footer no-border>
+  <button no-margin ion-button mode="ios" full color="reverse"  (click)="navCtrl.setRoot('TabsPage')"><b>시작하기</b></button>
+</ion-footer>

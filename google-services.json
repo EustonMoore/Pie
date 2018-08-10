@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095384200314",
+    "firebase_url": "https://pie-alpha.firebaseio.com",
+    "project_id": "pie-alpha",
+    "storage_bucket": "pie-alpha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095384200314:android:94f68a0da15b91bb",
+        "android_client_info": {
+          "package_name": "com.eustonmoore.pie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095384200314-68ef4aq5uurdf2pka1oipr7dp4i3g59p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eustonmoore.pie",
+            "certificate_hash": "abe969590af5e830a5a6942a7cbdd82e2f21baad"
+          }
+        },
+        {
+          "client_id": "1095384200314-5opkhvb7ocj4ud53lnpet9umm3d34lum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZoA-SvGiKtud-lZzG3SVFU3Anrg2XJO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095384200314-5opkhvb7ocj4ud53lnpet9umm3d34lum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+import { NgModule } from '@angular/core';
+import { IonicPageModule } from 'ionic-angular';
+import { Tab2Page } from './tab2';
+import { SuperTabsModule } from 'ionic2-super-tabs';
+@NgModule({
+  declarations: [
+    Tab2Page,
+  ],
+  imports: [
+    IonicPageModule.forChild(Tab2Page),
+    SuperTabsModule.forRoot()
+  ],
+})
+export class Tab2PageModule {}

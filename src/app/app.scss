@@ -14,3 +14,81 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@import '../theme/animations';
+
+::-webkit-scrollbar{ display:none; }
+
+
+.ios{
+    ion-content {
+        .scroll-content{
+           padding-top: 0 !important;
+       }
+       
+   }
+}
+ion-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    text-align: center;
+}
+
+
+
+.menu-header:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.menu-header {
+    position: relative;
+    width: 100%;
+    padding-bottom:60%;
+    background-image: url('../assets/img/cafe.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size:18px;
+    
+    padding-left:15px;
+    top:60%;
+}
+.email {
+    position: absolute;
+    color: white;
+    padding-left:15px;
+    top:75%;
+    margin-bottom: 5px;
+}
+
+.user-avatar {
+    position: absolute;
+    padding: .5em;
+    height: 55%;
+    margin-top: 15px;
+    // border: 3px solid #fff;
+}
+.round {
+    border-radius: 50%;
+}
+
+
+   
